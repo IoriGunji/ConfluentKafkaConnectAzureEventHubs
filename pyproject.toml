@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "connectazureeventhubswithconfluentkafka"
+version = "0.1.0"
+description = ""
+authors = ["IoriGunji-Vantiq <igunji@vantiq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+confluent-kafka = "^2.0.2"
+certifi = "^2022.12.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
